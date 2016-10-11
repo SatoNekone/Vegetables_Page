@@ -7,10 +7,8 @@ html, body, div, span,p{
   border-radius: 3px;
 }
 body{
-  width:  1260px;
-  height: 940px;
-  margin-left: auto;
-  margin-right: auto;
+  min-width:  1260px;
+  min-height: 940px;
 
 }
 .clear:after{
