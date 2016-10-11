@@ -114,14 +114,15 @@ color:#898989;
 background-color: #F5F8B9;
 padding-top: 12px;
 margin-top: 17px;
-line-height: 15px;
+line-height: 18px;
 box-sizing: border-box;
 }
 .textbox p ,.textbox hr{
     background-color: #F5F8B9;
     font-size: 15px;
     font-family: Arial;
-    margin:0px 15px 15px 15px;
+    margin:0px 15px 10px 15px;
+  /*  margin:0px 15px 15px 15px;  */
     text-align: left;
 }
 #thirdimg{
