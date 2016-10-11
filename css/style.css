@@ -1,0 +1,149 @@
+html, body, div, span,p{
+  margin: 0;
+	padding: 0;
+	border: 0;
+  font-family:Arial Black;
+  background-color: #EDF2C5;
+  border-radius: 3px;
+}
+body{
+  min-width:  1260px;
+  min-height: 940px;
+
+}
+.clear:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+.container{
+  width: 940px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 50px;
+}
+.headbox{
+  height: 43px;
+  color: #778A50;
+}
+.headbox h1{
+ width: 270px;
+ height: 100%;
+ float: left;
+ margin:0;
+}
+.headbox p,.headbox hr,.headbox img{
+  box-sizing: border-box;
+  text-align: center;
+  float: right;
+  font-size:12px;
+}
+.headbox hr{
+  margin: 16px 10px 7px 10px;
+}
+.headbox img{
+  margin:11px 0px 7px 8px;
+}
+#joinBtn{
+   width: 50px;
+   height: 20px;
+   /*padding: 5px 9px 5px 9px;*/
+   margin: 16px 0px 7px 0px;
+   border: 1px solid #75874F;
+}
+#loginBtn{
+  width: 60px;
+  height: 20px;
+/*  padding: 5px 9px 5px 9px;*/
+  margin: 16px 8px 7px 0px;
+  border: 1px solid #75874F;
+}
+.navbar{
+  height:43px;
+  background-color: #889C5B;
+  margin-top: 10px;
+  padding-left: 1px;
+  box-sizing: border-box;
+}
+.navbar ul li{
+    list-style: none;
+    color:#EDF2C5;
+    float:left;
+    font-size: 16px;
+  /*margin: 16px 15px 16px 15px;*/
+    padding:10px 15px 10px 15px;
+}
+.banner{
+  height:448px;
+  margin-top: 20px;
+}
+.footbox{
+  width: 940px;
+  height: 233px;
+}
+.footboxList{
+  margin-top: 32px;
+  width: 444px;
+  height: 201px;
+  float: left;
+}
+.footboxList li{
+width: 444px;
+height: 44px;
+background-color: #889C5B;
+color:#EDF2C5;
+padding: 11px 0px 11px 31px;
+/*padding: 16px 0px 16px 31px; */
+box-sizing: border-box;
+font-size: 16px;
+list-style: none;
+border-radius: 3px;
+}
+.footboxList img{
+  width: 140px;
+  height:140px;
+  margin: 17px 12px 0px 0px;
+  float:left;
+}
+.textbox {
+width:444px;
+height:140px;
+color:#898989;
+background-color: #F5F8B9;
+padding-top: 12px;
+margin-top: 17px;
+line-height: 15px;
+box-sizing: border-box;
+}
+.textbox p ,.textbox hr{
+    background-color: #F5F8B9;
+    font-size: 15px;
+    font-family: Arial;
+    margin:0px 15px 15px 15px;
+    text-align: left;
+}
+#thirdimg{
+margin-right: 0px;
+}
+#footboxspace{
+margin-left: 52px;
+}
+.footer{
+  background-color: #889C5B;
+  color:#EDF2C5;
+
+  width:1260px;
+  height: 60px;
+  padding:24px 420px 24px 420px;
+/*  padding:24px 463px 24px 463px; */
+  margin-top:  34px;
+  box-sizing: border-box;
+
+}
+.footer p{
+background-color: #889C5B;
+color:#EDF2C5;
+text-align: center;
+  font-size:12px;
+  font-family: Arial Black;
+}
